@@ -41,4 +41,11 @@ p, h1, h2, h3, h4, h5, h6 {
   justify-content: center;
   color: white;
   font-family: arial;
+  font-size: 28px;
+}
+
+@media only screen and (max-width: 600px) {
+  .content {
+    font-size: 20px;
+  }
 }
